@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Footer V1</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white">
+
+  <footer class="bg-gray-800 text-white">
+    <div class="container mx-auto px-6 py-8">
+      <!-- Main Footer Content -->
+      <div class="flex flex-col lg:flex-row justify-between items-start gap-8">
+        <!-- Left Section - Logo and Contact -->
+        <div class="flex-1">
+          <div class="flex items-center gap-4 mb-6">
+<div class="w-16 h-16 rounded-lg overflow-hidden border-2 border-gray-300">
+  <img src="https://pia.gov.ph/wp-content/uploads/2024/10/DOST_CMYKB.png" alt="DOST Logo" class="w-full h-full object-contain bg-white p-1" />
+</div>
+
+            <div>
+              <h3 class="text-xl font-bold">DOST ONE VIRTUAL SCIENCE CENTRUM</h3>
+              <p class="text-gray-300 text-sm">DEPARTMENT OF SCIENCE AND TECHNOLOGY</p>
+              <p class="text-gray-300 text-sm">REPUBLIC OF THE PHILIPPINES</p>
+            </div>
+          </div>
+
+          <div class="space-y-2">
+            <p class="font-semibold">HEADQUARTERS</p>
+            <p>Bicol Science Centrum</p>
+            <p>J5GX+9PH, J Miranda Ave</p>
+            <p>Naga City, Camarines Sur, Philippines</p>
+            <a href="tel:+63054123456" class="text-blue-300 hover:text-blue-200 underline">
+              +63 (054) 123-4567
+            </a>
+          </div>
+
+          <div class="mt-4 space-x-1">
+            <a href="#" class="text-gray-300 hover:text-white underline text-sm">Webmaster</a>
+            <span class="text-gray-400">|</span>
+            <a href="#" class="text-gray-300 hover:text-white underline text-sm">Contact Us</a>
+            <span class="text-gray-400">|</span>
+            <a href="#" class="text-gray-300 hover:text-white underline text-sm">Other DOST Offices</a>
+          </div>
+        </div>
+
+        <!-- Right Section - Social Media and Feedback -->
+        <div class="flex flex-col items-end gap-6">
+          <div class="flex gap-3">
+            <!-- Icons use inline SVGs -->
+            <!-- Replace `#` with actual links -->
+            <!-- Twitter -->
+            <a href="#" class="w-8 h-8 hover:bg-gray-700 rounded flex items-center justify-center transition-colors" aria-label="Twitter/X">
+              <!-- SVG path here -->
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+              </svg>
+            </a>
+            <!-- Add all other social icons here using similar blocks -->
+            <!-- Facebook, LinkedIn, Instagram, YouTube, Newsletter, Email -->
+            <!-- Omitted here for brevity but include SVGs from original code -->
+          </div>
+
+          <div class="flex items-center gap-3">
+            <span class="text-gray-300">How are we doing?</span>
+            <a href="#" class="bg-blue-600 hover:bg-blue-500 px-4 py-2 rounded text-white font-medium transition-colors">
+              Feedback
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Links -->
+      <div class="mt-8 pt-6 border-t border-gray-700">
+        <div class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm">
+          <a href="#" class="text-gray-300 hover:text-white">Site Privacy</a>
+          <span class="text-gray-500">|</span>
+          <a href="#" class="text-gray-300 hover:text-white">Accessibility</a>
+          <span class="text-gray-500">|</span>
+          <a href="#" class="text-gray-300 hover:text-white">Privacy Program</a>
+          <span class="text-gray-500">|</span>
+          <a href="#" class="text-gray-300 hover:text-white">Copyrights</a>
+          <span class="text-gray-500">|</span>
+          <a href="#" class="text-gray-300 hover:text-white">Vulnerability Disclosure</a>
+          <span class="text-gray-500">|</span>
+          <a href="#" class="text-gray-300 hover:text-white">Freedom of Information</a>
+          <span class="text-gray-500">|</span>
+          <a href="#" class="text-gray-300 hover:text-white">Environmental Policy</a>
+          <span class="text-gray-500">|</span>
+          <a href="#" class="text-gray-300 hover:text-white">Scientific Integrity</a>
+        </div>
+
+        <div class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm mt-3">
+          <a href="#" class="text-gray-300 hover:text-white">Information Quality Standards</a>
+          <span class="text-gray-500">|</span>
+          <a href="#" class="text-gray-300 hover:text-white">DOST.gov.ph</a>
+          <span class="text-gray-500">|</span>
+          <a href="#" class="text-gray-300 hover:text-white">Science.gov.ph</a>
+          <span class="text-gray-500">|</span>
+          <a href="#" class="text-gray-300 hover:text-white">Gov.ph</a>
+          <span class="text-gray-500">|</span>
+          <a href="#" class="text-gray-300 hover:text-white">Vote.gov.ph</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button onclick="scrollToTop()" class="fixed bottom-6 right-6 w-12 h-12 bg-gray-700 hover:bg-gray-600 rounded-full flex items-center justify-center text-white transition-colors shadow-lg" aria-label="Back to top">
+      <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
+      </svg>
+    </button>
+  </footer>
+
+  <script>
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  </script>
+</body>
+</html>
